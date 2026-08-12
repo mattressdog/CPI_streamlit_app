@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-page_1 = st.Page("pages/page_one.py", title="CPI Graph")
-pg = st.navigation([page_1])
-pg.run()
+#page_1 = st.Page("pages/page_one.py", title="CPI Graph")
+#pg = st.navigation([page_1])
+#pg.run()
 
 st.set_page_config(page_title="CPI Visualizer", page_icon="📈", layout="centered")
 
